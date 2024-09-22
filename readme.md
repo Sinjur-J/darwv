@@ -4,7 +4,7 @@
 
 *DARwV* can be found on GitHub.
 
-GitHub: [https://github.com/SinjurJ/chases-and-stills](https://github.com/SinjurJ/chases-and-stills)  
+GitHub: [https://github.com/Sinjur-J/darwv](https://github.com/Sinjur-J/darwv)  
 
 ## Copyright
 
