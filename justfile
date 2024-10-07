@@ -13,5 +13,5 @@ format:
     ./build/darwv
 
 setup:
-    @rm -r build
+    @rm -r build >/dev/null 2>&1 || :
     cmake -Bbuild . -GNinja
