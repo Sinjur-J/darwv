@@ -9,8 +9,9 @@ build:
 format:
     find ./src -type f -name "*.cpp" | xargs clang-format -i
 
-@run:
-    ./build/darwv
+[positional-arguments]
+@run *args:
+    ./build/darwv "$@"
 
 setup:
     @rm -r build >/dev/null 2>&1 || :
