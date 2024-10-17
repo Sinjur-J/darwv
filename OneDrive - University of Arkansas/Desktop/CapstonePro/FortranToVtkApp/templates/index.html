@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortran File Uploader</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h2>Drag and Drop Fortran Files</h2>
+    <div id="drop-area">
+        <p>Drag files here or click to upload</p>
+        <input type="file" id="fileElem" multiple accept=".f90">
+        <label class="button" for="fileElem">Select files</label>
+    </div>
+
+    <h2>VTK Files Output</h2>
+    <div id="output-area">
+        <p>VTK files will be displayed here:</p>
+        <ul id="output-list"></ul>
+    </div>
+
+    <p id="feedback"></p>
+    
+<script src="{{ url_for('static', filename='uploader.js') }}"></script>
+
+</body>
+</html>
